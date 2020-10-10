@@ -2,15 +2,15 @@
 
 int is_simple(int number)
 {
-  if (number<2)
+  if (number < 2)
   {
     printf("Wrong number ");
     
     return 404; 
   }
-  for (int i=2; i<number; i++)
+  for (int i = 2; i < number; i++)
     {
-      if (number%i==0)
+      if (number % i == 0)
       {
       return 0;
       }
