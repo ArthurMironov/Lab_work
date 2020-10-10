@@ -20,8 +20,9 @@ int power (int x, int power)
   y=1;
   for (i = 1; i <= power; ++i)
   {
-  y=y*x;
+    y=y*x;
   }
+    
   return y;
 }
 
