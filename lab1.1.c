@@ -8,11 +8,11 @@ int main()
  {
   if (i%15==0)
     {
-    printf("FizzBuzz\n");
+     printf("FizzBuzz\n");
     }
   else if(i%3==0 && i%5 !=0)
     {
-    printf("Fizz\n");
+     printf("Fizz\n");
     }
   else if(i%5==0 && i%3 !=0)
     {
@@ -23,6 +23,7 @@ int main()
       printf("%d\n",i);
     }
  }
+ 
 return 0;
 }
 
