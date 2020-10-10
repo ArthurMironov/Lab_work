@@ -9,19 +9,20 @@ int is_simple(int number)
     return 404; 
   }
   for (int i = 2; i < number; i++)
+  {
+    if (number % i == 0)
     {
-      if (number % i == 0)
-      {
       return 0;
-      }
     }
+  }
+  
   return 1;
 }
 int main(void)
 {
  int num;
  scanf("%d", &num);
- printf ("%d", is_simple(num));
+ printf("%d", is_simple(num));
 
  return 0;
 }  
