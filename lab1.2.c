@@ -5,6 +5,7 @@ int is_simple(int number)
   if (number<2)
   {
     printf("Wrong number ");
+    
     return 404; 
   }
   for (int i=2; i<number; i++)
