@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-int power (int m, int n);
+int power (int number, int power);
 
 int main()
 {
     int i;
-    int m;
+    int number;
     printf("Enter number: ");
-    scanf("%d",&m);
+    scanf("%d",&number);
     printf("Enter degree: ");
     scanf("%d",&i);    
-    printf("%d %d\n", i, power(m, i));
+    printf("%d %d\n", i, power(number, i));
     return 0;
 }
-int power (int x, int n)
+int power (int x, int power)
 {
   int i;
   int y;
   y=1;
-  for (i = 1; i <= n; ++i)
+  for (i = 1; i <= power; ++i)
   {
   y=y*x;
   }
