@@ -2,16 +2,16 @@
 
 int cache[300];
 
-long long get_fibbonachi_via_recursion(int number)
+long long get_fibbonachi_via_recursion(int number);
 
 int main()
 {
-    int number;
-    printf("Enter n for find fibbonachi: ");
-    scanf("%d", &number);
-    for (int count = 1; count < number; count++)
+int n;
+printf("Enter n for find fibbonachi: ");
+scanf("%d", &n);
+for (int count = 1; count < n; count++)
     {
-        printf("%llu\t\n", get_fibbonachi_via_recursion(count));
+    printf("%llu\t\n", get_fibbonachi_via_recursion(count));
     }
       
     return 0;
