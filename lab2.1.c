@@ -18,6 +18,6 @@ long long get_fibbonachi_via_cycle(int number)
     fib += fib_sum;
     fib_sum = fib - fib_sum;
   }
-
+  
   return fib_sum;
 }
