@@ -12,7 +12,7 @@ int main()
   }
   else
   {
-   power(number, source, target);
+    power(number, source, target);
   }
 }
 
@@ -71,5 +71,6 @@ void power(int number, int source, int target)
       result[length - 1 - q] = result[q] - result[length - q - 1];
       result[q] -= result[length - 1 - q];
    }
+  
   printf("%s", result);
 }
